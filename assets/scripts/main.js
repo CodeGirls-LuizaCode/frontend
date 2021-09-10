@@ -6,9 +6,10 @@
       let produtosGrid = document.getElementById('produtos');
   
       data.map((item) => {
-        const { id, title } = item;
+        const { produto , descricao , image_prod } = item;
         return (produtosGrid.innerHTML += `
-          <div class="produtos"> <img src="${id}" alt="${title}'s thumbnail" /> <p>${title}</p>
+          <div class="produtos"> <img src="${image_prod}" alt="${produto}'s thumbnail" /> <p>${produto}</p>
+          <p>${descricao}</p>
           <p><button class="button">Comprar</button> </p> </div>
       
           `);
