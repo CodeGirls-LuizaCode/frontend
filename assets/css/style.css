@@ -179,6 +179,7 @@ footer {
 #produtos {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  
 }
 
 .produtos {
@@ -189,8 +190,8 @@ footer {
   border-color: #004aad;
   padding: 20px;
   background-color: none;
-
 }
+
 .produtos img {
   width: 100%;
 }
@@ -214,26 +215,44 @@ footer {
     cursor: pointer;
 }
 
-form {
+form, .options, .price {
   border: 1px solid whitesmoke;
   border-radius: 0.3em;
   padding: 0.3em;
 }
 
-form input, form button {
+form input, form button, .options button, .options, section h2, .price {
   font-size: 1.2em;
   border-radius: 0.2em;
   border: none;
   padding: 0.2em;
 }
 
-form button {
+form button,  section h2 {
   cursor: pointer;
   background: none;
   color: whitesmoke;
+  font-weight: bolder;
 }
 
-form button:hover {
-  background-color: whitesmoke;
+option  {
+  cursor: pointer;
+  background: none;
   color: blueviolet;
+}
+
+.price {
+  cursor:grab;
+  background: none;
+  color:  blueviolet;
+}
+
+form button:hover, .options button:hover {
+  background-color: blueviolet;
+  color: whitesmoke;
+}
+
+.price:hover {
+  background-color: red;
+  color: whitesmoke;
 }

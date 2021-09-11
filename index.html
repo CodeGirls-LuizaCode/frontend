@@ -1,40 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Code Girls Shop</title>
+    <script
+      src="https://kit.fontawesome.com/1e592b5726.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Code Girls Shop</title>
-  <script src="https://kit.fontawesome.com/1e592b5726.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-</head>
+  <body>
+    <header>
+      <img class="logo" src="assets/img/logo.png" />
+      <form id="form" action="#" method="POST">
+        <section>
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Pesquise seu produto"
+            required
+          />
+          <button type="submit"><i class="fas fa-search"></i></button>
+        </section>
+        <section class="options">
+<!--           
+            Categorias
+          <select>
+            <option ></option>
+            <option value="Eletrodomesticos">Eletrodomesticos</option>
+            <option value="Informática">Informática</option>
+            <option value="Games">Games</option>
+          </select>
+        </section> -->
+      </form>
+    </header>
 
-<body>
-  <header>
-    <img class="logo" src="assets/img/logo.png" />
-    <form action="#" method="POST">
-      <input
-        type="text"
-        name="search"
-        id="search"
-        placeholder="Pesquise seu produto"
-        required
-      />
-      <button type="submit"><i class="fas fa-search"></i></button>
-    </form>
-  </header>
+    <main>
+      <h1>Produtos disponíveis</h1>
+      <div id="produtos"></div>
+    </main>
 
-  <main>
-    <h1>Produtos disponíveis</h1>
-    <div id="produtos"></div>
-  </main>
+    <footer>Code Girls Shop</footer>
 
-  <footer>
-    Code Girls Shop
-  </footer>
-
-  <script src="assets/scripts/main.js" type="text/javascript"></script>
-</body>
-
+    <script src="assets/scripts/main.js" type="text/javascript"></script>
+  </body>
 </html>
