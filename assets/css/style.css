@@ -140,10 +140,11 @@ body {
 }
 
 header {
+  align-items: center;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   padding: 10px;
-  background-color: rgb(255, 255, 255);
+  background: rgb(192, 165, 218);
 }
 
 .logo {
@@ -211,4 +212,28 @@ footer {
     display: inline-block;
     font-size: 13px;
     cursor: pointer;
+}
+
+form {
+  border: 1px solid whitesmoke;
+  border-radius: 0.3em;
+  padding: 0.3em;
+}
+
+form input, form button {
+  font-size: 1.2em;
+  border-radius: 0.2em;
+  border: none;
+  padding: 0.2em;
+}
+
+form button {
+  cursor: pointer;
+  background: none;
+  color: whitesmoke;
+}
+
+form button:hover {
+  background-color: whitesmoke;
+  color: blueviolet;
 }
