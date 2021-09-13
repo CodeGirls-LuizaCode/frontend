@@ -57,7 +57,7 @@
 
 API externa: [Code Girls](https://code-girls.herokuapp.com/docs/)
 
-![Captura de tela de 2021-09-13 17-54-03](https://user-images.githubusercontent.com/72254705/133155064-90a0c43c-6b36-4b52-a9d6-5a3abebc6cc4.png)
+![aplicacao](https://user-images.githubusercontent.com/72254705/133170658-345fb131-2721-4387-bea4-e0d5cd37679d.jpg)
 
 <!-- CONTACT -->
 
