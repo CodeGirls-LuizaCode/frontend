@@ -4,7 +4,7 @@
 
 - [📋 Sobre](#Sobre)
 - [🕹 Tecnologias](#Tecnologias)
-- [🧑🏽‍💻 Iniciando o projeto](#Iniciando o Projeto)
+- [🧑🏽‍💻 Iniciando o projeto](#Iniciando)
 - [🦸 Contatos](#Contatos)
 
 <hr>
@@ -30,7 +30,7 @@
 
 <!-- TECHNOLOGIES -->
 
-# Iniciando o Projeto
+# Iniciando
 
 ### Instalação
 
