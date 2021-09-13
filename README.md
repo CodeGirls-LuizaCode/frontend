@@ -5,7 +5,6 @@
 - [📋 Sobre](#Sobre)
 - [🕹 Tecnologias](#Tecnologias)
 - [🧑🏽‍💻 Iniciando o projeto](#Iniciando)
-- [📝 Licença](#Licença)
 - [🦸 Contatos](#Contatos)
 
 <hr>
@@ -31,6 +30,7 @@
 
 <!-- TECHNOLOGIES -->
 
+# Iniciando o Projeto
 ### Instalação
 
 1. Clonar o repositório:
