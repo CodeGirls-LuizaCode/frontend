@@ -71,5 +71,5 @@ Milena Maganin - [Linkedin](https://www.linkedin.com/in/milenamaganin/) - mimaga
 Sabrynna Lourenço - [Linkedin](https://www.linkedin.com/in/sabrynna-lourenco/) - limasabrynna03@gmail.com \
 Thaís Minas - [Linkedin](https://www.linkedin.com/in/thaisminas/) - thais.2929@gmail.com
 
-Link do projeto: [https://github.com/CodeGirls-LuizaCode/backend](https://github.com/CodeGirls-LuizaCode/frontend)
+Link do projeto: [https://github.com/CodeGirls-LuizaCode/frontend](https://github.com/CodeGirls-LuizaCode/frontend)
 
